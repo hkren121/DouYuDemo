@@ -20,6 +20,10 @@
 		475180D22016D87000D34EAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D12016D87000D34EAA /* MainViewController.swift */; };
 		475180D42016D8AB00D34EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D32016D8AB00D34EAA /* HomeViewController.swift */; };
 		475180D72016DECB00D34EAA /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */; };
+		475180D92016E60400D34EAA /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D82016E60400D34EAA /* PageTitleView.swift */; };
+		475180DB2016E78E00D34EAA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180DA2016E78E00D34EAA /* Common.swift */; };
+		475180DD2017123D00D34EAA /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180DC2017123D00D34EAA /* PageContentView.swift */; };
+		475180DF2017149A00D34EAA /* UIColor-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180DE2017149A00D34EAA /* UIColor-Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		475180D12016D87000D34EAA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		475180D32016D8AB00D34EAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		475180D82016E60400D34EAA /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		475180DA2016E78E00D34EAA /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		475180DC2017123D00D34EAA /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		475180DE2017149A00D34EAA /* UIColor-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				475180D52016DE9000D34EAA /* Extension */,
+				475180DA2016E78E00D34EAA /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -228,6 +237,8 @@
 		475180CE2016D86F00D34EAA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				475180D82016E60400D34EAA /* PageTitleView.swift */,
+				475180DC2017123D00D34EAA /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */,
+				475180DE2017149A00D34EAA /* UIColor-Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -395,7 +407,11 @@
 			files = (
 				4751808B2016CDEC00D34EAA /* AppDelegate.swift in Sources */,
 				475180D22016D87000D34EAA /* MainViewController.swift in Sources */,
+				475180DF2017149A00D34EAA /* UIColor-Extention.swift in Sources */,
+				475180D92016E60400D34EAA /* PageTitleView.swift in Sources */,
+				475180DD2017123D00D34EAA /* PageContentView.swift in Sources */,
 				475180D72016DECB00D34EAA /* UIBarButtonItem-Extension.swift in Sources */,
+				475180DB2016E78E00D34EAA /* Common.swift in Sources */,
 				475180D42016D8AB00D34EAA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

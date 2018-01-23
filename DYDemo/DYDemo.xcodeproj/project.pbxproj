@@ -17,7 +17,9 @@
 		475180C22016D29800D34EAA /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475180C12016D29800D34EAA /* Live.storyboard */; };
 		475180C52016D2AA00D34EAA /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475180C32016D2AA00D34EAA /* Follow.storyboard */; };
 		475180C72016D2D300D34EAA /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475180C62016D2D300D34EAA /* Profile.storyboard */; };
-		475180CA2016D60000D34EAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180C92016D60000D34EAA /* MainViewController.swift */; };
+		475180D22016D87000D34EAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D12016D87000D34EAA /* MainViewController.swift */; };
+		475180D42016D8AB00D34EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D32016D8AB00D34EAA /* HomeViewController.swift */; };
+		475180D72016DECB00D34EAA /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,9 @@
 		475180C12016D29800D34EAA /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		475180C42016D2AA00D34EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYDemo/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		475180C62016D2D300D34EAA /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		475180C92016D60000D34EAA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		475180D12016D87000D34EAA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		475180D32016D8AB00D34EAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +152,9 @@
 		475180B92016CE6C00D34EAA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				475180BE2016D27E00D34EAA /* Home.storyboard */,
+				475180CD2016D81700D34EAA /* Model */,
+				475180CB2016D81700D34EAA /* View */,
+				475180CC2016D81700D34EAA /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 		475180BA2016CE6C00D34EAA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				475180D52016DE9000D34EAA /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -179,8 +186,10 @@
 		475180BD2016CE6C00D34EAA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				475180CF2016D86F00D34EAA /* Model */,
+				475180CE2016D86F00D34EAA /* View */,
+				475180D02016D87000D34EAA /* Controller */,
 				4751808E2016CDEC00D34EAA /* Main.storyboard */,
-				475180C92016D60000D34EAA /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -191,6 +200,59 @@
 				475180C62016D2D300D34EAA /* Profile.storyboard */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		475180CB2016D81700D34EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		475180CC2016D81700D34EAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				475180BE2016D27E00D34EAA /* Home.storyboard */,
+				475180D32016D8AB00D34EAA /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		475180CD2016D81700D34EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		475180CE2016D86F00D34EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		475180CF2016D86F00D34EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		475180D02016D87000D34EAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				475180D12016D87000D34EAA /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		475180D52016DE9000D34EAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				475180D62016DECB00D34EAA /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,7 +394,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4751808B2016CDEC00D34EAA /* AppDelegate.swift in Sources */,
-				475180CA2016D60000D34EAA /* MainViewController.swift in Sources */,
+				475180D22016D87000D34EAA /* MainViewController.swift in Sources */,
+				475180D72016DECB00D34EAA /* UIBarButtonItem-Extension.swift in Sources */,
+				475180D42016D8AB00D34EAA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

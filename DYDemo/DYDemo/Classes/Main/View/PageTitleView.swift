@@ -129,6 +129,7 @@ extension PageTitleView{
         //1.获取当前label
         guard let currentLabel = tapGes.view as? UILabel else { return }
         
+        //防止重复点击
         if currentIndex == currentLabel.tag {
             return
         }
@@ -176,6 +177,7 @@ extension PageTitleView{
         //3.3、变化targetlabel
         targetLabel.textColor = UIColor(r: KNormalColor.0 + colorDelta.0 * progress, g: KNormalColor.1 + colorDelta.1 * progress, b: KNormalColor.2 + colorDelta.2 * progress)
         
+        //滑动过快时有颜色bug
         if sourceIndex == targetIndex {
             for index in 0...3{
                 let lab = titleLabels[index]

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47120762201AC4A2000D584E /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47120761201AC4A2000D584E /* RecommendViewController.swift */; };
+		47120765201ACE45000D584E /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47120763201ACE45000D584E /* CollectionHeaderView.swift */; };
+		47120766201ACE45000D584E /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47120764201ACE45000D584E /* CollectionHeaderView.xib */; };
+		47120769201AD250000D584E /* CollectionNormailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47120767201AD250000D584E /* CollectionNormailCell.swift */; };
+		4712076A201AD250000D584E /* CollectionNormailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47120768201AD250000D584E /* CollectionNormailCell.xib */; };
+		4712076D201AD6EF000D584E /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4712076B201AD6EF000D584E /* CollectionPrettyCell.swift */; };
+		4712076E201AD6EF000D584E /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4712076C201AD6EF000D584E /* CollectionPrettyCell.xib */; };
 		4751808B2016CDEC00D34EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4751808A2016CDEC00D34EAA /* AppDelegate.swift */; };
 		475180902016CDEC00D34EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4751808E2016CDEC00D34EAA /* Main.storyboard */; };
 		475180922016CDEC00D34EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475180912016CDEC00D34EAA /* Assets.xcassets */; };
@@ -44,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47120761201AC4A2000D584E /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		47120763201ACE45000D584E /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		47120764201ACE45000D584E /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		47120767201AD250000D584E /* CollectionNormailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormailCell.swift; sourceTree = "<group>"; };
+		47120768201AD250000D584E /* CollectionNormailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormailCell.xib; sourceTree = "<group>"; };
+		4712076B201AD6EF000D584E /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		4712076C201AD6EF000D584E /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
 		475180872016CDEC00D34EAA /* DYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4751808A2016CDEC00D34EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4751808F2016CDEC00D34EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -214,6 +228,8 @@
 		475180CB2016D81700D34EAA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				47120763201ACE45000D584E /* CollectionHeaderView.swift */,
+				47120764201ACE45000D584E /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +239,7 @@
 			children = (
 				475180BE2016D27E00D34EAA /* Home.storyboard */,
 				475180D32016D8AB00D34EAA /* HomeViewController.swift */,
+				47120761201AC4A2000D584E /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +256,10 @@
 			children = (
 				475180D82016E60400D34EAA /* PageTitleView.swift */,
 				475180DC2017123D00D34EAA /* PageContentView.swift */,
+				47120767201AD250000D584E /* CollectionNormailCell.swift */,
+				47120768201AD250000D584E /* CollectionNormailCell.xib */,
+				4712076B201AD6EF000D584E /* CollectionPrettyCell.swift */,
+				4712076C201AD6EF000D584E /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,10 +396,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				475180952016CDEC00D34EAA /* LaunchScreen.storyboard in Resources */,
+				47120766201ACE45000D584E /* CollectionHeaderView.xib in Resources */,
 				475180922016CDEC00D34EAA /* Assets.xcassets in Resources */,
+				4712076A201AD250000D584E /* CollectionNormailCell.xib in Resources */,
 				475180902016CDEC00D34EAA /* Main.storyboard in Resources */,
 				475180C22016D29800D34EAA /* Live.storyboard in Resources */,
 				475180C02016D27E00D34EAA /* Home.storyboard in Resources */,
+				4712076E201AD6EF000D584E /* CollectionPrettyCell.xib in Resources */,
 				475180C72016D2D300D34EAA /* Profile.storyboard in Resources */,
 				475180C52016D2AA00D34EAA /* Follow.storyboard in Resources */,
 			);
@@ -405,12 +429,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47120769201AD250000D584E /* CollectionNormailCell.swift in Sources */,
 				4751808B2016CDEC00D34EAA /* AppDelegate.swift in Sources */,
+				47120765201ACE45000D584E /* CollectionHeaderView.swift in Sources */,
 				475180D22016D87000D34EAA /* MainViewController.swift in Sources */,
+				47120762201AC4A2000D584E /* RecommendViewController.swift in Sources */,
 				475180DF2017149A00D34EAA /* UIColor-Extention.swift in Sources */,
 				475180D92016E60400D34EAA /* PageTitleView.swift in Sources */,
 				475180DD2017123D00D34EAA /* PageContentView.swift in Sources */,
 				475180D72016DECB00D34EAA /* UIBarButtonItem-Extension.swift in Sources */,
+				4712076D201AD6EF000D584E /* CollectionPrettyCell.swift in Sources */,
 				475180DB2016E78E00D34EAA /* Common.swift in Sources */,
 				475180D42016D8AB00D34EAA /* HomeViewController.swift in Sources */,
 			);
